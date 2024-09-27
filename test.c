@@ -1,7 +1,6 @@
 #include "test.h"
 
 
-
 void print_bitmap(int start, int end) {
     uint8_t *bm = (uint8_t *)&heap;
     uint8_t bitmask = 0b10000000;
