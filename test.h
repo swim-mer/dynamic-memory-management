@@ -1,7 +1,6 @@
 #ifndef test_h
 #define test_h
 
-
 #include "dynamic-memory.h"
 
 void print_bitmap(int start, int end);
