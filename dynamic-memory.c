@@ -4,11 +4,11 @@
 
 
 /* Heap is located at 0x80010000 - 0x80020000 for a size of 65537 bytes, or approximately 65.5 kilobytes (KB) */
-const uint32_t HEAP_SIZE = 65537; // Used a calculator to count number of bytes between 0x80010000 - 0x80020000 inclusive
+const uint32_t HEAP_SIZE = 65537;
 //const uint64_t HEAP_START_ADDRESS = 0x80010000; // Not part of the assignment
 //const uint32_t HEAP_END_ADDRESS = 0x80020000; // Not part of the assignment 
-const uint16_t BITMAP_SIZE = 7282; // Used a function to calculate the available bytes per proportion of the heap
-const uint16_t USABLE_BYTES_SIZE = 58255 - 1; // ^^
+const uint16_t BITMAP_SIZE = 7282;
+const uint16_t USABLE_BYTES_SIZE = 58255 - 1;
 uint8_t heap[65537];
 
 /* 
